@@ -1,0 +1,146 @@
+* {
+
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+
+}
+
+.nav-title {
+
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.banner img {}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-dsc {
+    color: darkgrey;
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+
+/* about section */
+.about-me-section {
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 20px 180px;
+    padding: 40px;
+}
+
+.about-me-section h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 60px;
+
+}
+
+.about-me-section p {
+    text-align: center;
+
+    margin: 20px 150px;
+    color: darkgrey
+}
+
+table {
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+td {
+    font-size: 16px;
+
+}
+
+.trd {
+    color: darkgray;
+}
+
+/* What i do */
+.section-title {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: darkgray;
+}
